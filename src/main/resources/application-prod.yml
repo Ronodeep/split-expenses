@@ -1,0 +1,14 @@
+spring:
+  profile: prod
+
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  jpa:
+    database-platform:
